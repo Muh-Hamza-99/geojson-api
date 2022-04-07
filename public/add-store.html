@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Add a Store</title>
+  </head>
+  <body>
+      <div class="w-screen h-screen flex flex-col justify-center items-center">
+      <h1 class="tracking-wider font-bold uppercase text-gray-700">Add Store!</h1>
+      <form id="store-form" method="POST">
+        <div>
+          <label class="block text-gray-700 text-sm font-bold mb-2" for="store-ID">StoreID</label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="store-ID" />
+        </div>
+        <div>
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="store-address">Store Address</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="store-address">
+        </div>
+        <div class="mt-4">
+            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Add Location!</button>
+            <a class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow" href="index.html">Back to Home!</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
