@@ -1,4 +1,4 @@
-# geojson-api
+# 🗺 geojson-api
 
 ## 📃 Description:
 A simple API that tracks and stores locations entered by the user and displays them on a map.
